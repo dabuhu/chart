@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import styled from "@emotion/styled";
 
 import StyledTreeExample from "./StyledTreeExample";
-import BasicTreeExample from "./BasicTreeExample";
 
 const Title = styled.h2`
   margin-top: 5rem;
@@ -14,9 +13,7 @@ const Title = styled.h2`
 
 function App() {
   return (
-    <div style={{ textAlign: "center" }}>
-      <Title>Basic tree</Title>
-      <BasicTreeExample />
+    <div style={{ textAlign: "center", minWidth: '1200px' }}>
       <Title>Styled tree</Title>
       <StyledTreeExample />
     </div>
